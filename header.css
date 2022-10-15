@@ -1,0 +1,46 @@
+/*navbar*/
+:focus {
+    outline: 0 !important;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+  } 
+.bg-dark {
+    background-color: black !important;
+  }
+  .navbar > div {
+    padding: 0 15vw 0 15vw;
+  }
+  #navbarAltMarkup {
+    width: 60%;
+  }
+  .navbar-nav {
+    gap: 2vw;
+  }
+  .nav-link:last-child {
+    min-width: 100px;
+  }
+  .nav-link {
+    text-align: center;
+  }
+  .logo-small {
+    display: none;
+  }
+  .navbar-dark .navbar-toggler {
+    border-color: rgba(0, 0, 0, 0);
+  }
+  
+  .heading {
+    display: flex;
+  
+    align-items: center;
+    color: white;
+    font-weight: bold;
+  }
+  .heading h1 {
+    font-size: max(2vw, 25px);
+  }
+
+  @media all and (max-width: 768px) {
+    .navbar-nav {
+      gap: 0;
+    }
+}
